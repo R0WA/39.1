@@ -1,0 +1,22 @@
+#include <iostream>
+
+bool isEven(int num)
+{
+	return (num % 2) == 0;
+}
+
+int main()
+{
+	std::cout << "Enter a integer" << std::endl;
+	int num;
+		std::cin >> num;
+
+	if (isEven(num)){
+		std::cout << "Not Even!" << std::endl;
+	}
+	else {
+		std::cout << "Is Even!" << std::endl;
+	}
+
+	return 0;
+}
